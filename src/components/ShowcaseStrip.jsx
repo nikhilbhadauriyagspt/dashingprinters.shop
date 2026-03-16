@@ -13,7 +13,7 @@ export default function ServiceHighlights() {
       id: 1,
       icon: Truck,
       title: "FREE SHIPPING",
-      subtitle: "On all orders over $99.00",
+      subtitle: "On all orders ",
     },
     {
       id: 2,
