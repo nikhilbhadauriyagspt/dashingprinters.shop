@@ -85,7 +85,7 @@ export default function Footer() {
         <div className="py-12 flex flex-col lg:flex-row items-center justify-between gap-8 border-b border-gray-700">
           <div className="flex flex-col items-center lg:items-start gap-4">
             <Link to="/">
-              <img src="/logo/logo.png" alt="Logo" className="h-10 brightness-0 invert" />
+              <img src="/logo/logo.png" alt="Logo" className="h-16 " />
             </Link>
             <p className="text-gray-400 text-sm max-w-md text-center lg:text-left">
               Intel Printing is your one-stop shop for all your printing needs. We provide high-quality printers, accessories, and expert support.
