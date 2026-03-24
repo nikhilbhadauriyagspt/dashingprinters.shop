@@ -119,7 +119,7 @@ export default function Footer() {
           <div className="text-[12px] text-gray-400 space-y-2 text-center md:text-left">
             <p>Â© 2026, Intel Printing Inc. or its affiliates</p>
             <p className="text-[13px] font-medium opacity-80 leading-relaxed">
-              Disclaimer: All product names, logos, and brands are property of their respective owners. All company, product and service names used in this website are for identification purposes only. Use of these names, logos, and brands does not imply endorsement.
+              Disclaimer:For Informational only. No software installation or distribution.
             </p>
           </div>
 
