@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+﻿import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import SEO from '@/components/SEO';
 import { ChevronDown, Search, HelpCircle, ChevronRight, ArrowRight } from 'lucide-react';
@@ -11,7 +11,7 @@ const faqData = [
       { q: "How do I place an order?", a: "Simply browse our products, add your items to the cart, and complete the checkout using your preferred payment method." },
       { q: "Do I need an account to purchase?", a: "No. You can checkout as a guest. However, creating an account helps you track orders and access your purchase history." },
       { q: "How can I check my order status?", a: "Log into your account and visit My Orders to view real-time updates. You will also receive email notifications." },
-      { q: "Can I modify or cancel my order?", a: "Orders can be modified or canceled before shipping. Once the item is dispatched, cancellations aren’t possible." },
+      { q: "Can I modify or cancel my order?", a: "Orders can be modified or canceled before shipping. Once the item is dispatched, cancellations arenâ€™t possible." },
       { q: "What payment methods do you accept?", a: "We accept major credit/debit cards (Visa, Mastercard), PayPal, and other secure digital payment options." },
       { q: "Is shopping here secure?", a: "Yes. All transactions are encrypted and processed through secure, PCI-compliant payment networks." }
     ]
@@ -21,9 +21,9 @@ const faqData = [
     questions: [
       { q: "What are your shipping options?", a: "We offer standard and expedited shipping across the USA, depending on your location." },
       { q: "Do you deliver nationwide?", a: "Yes, we ship to all 50 states, including business addresses." },
-      { q: "How long does delivery take?", a: "Delivery typically takes 3–7 business days, based on your region and order volume." },
+      { q: "How long does delivery take?", a: "Delivery typically takes 3â€“7 business days, based on your region and order volume." },
       { q: "How much does shipping cost?", a: "Shipping charges vary by product weight, location, and delivery speed. Final charges appear at checkout." },
-      { q: "Will I receive a tracking number?", a: "Yes. You’ll receive a tracking link via email as soon as your order ships." },
+      { q: "Will I receive a tracking number?", a: "Yes. Youâ€™ll receive a tracking link via email as soon as your order ships." },
       { q: "What if my order is delayed?", a: "You can use your tracking link or contact our support team for an immediate update." }
     ]
   },
@@ -33,7 +33,7 @@ const faqData = [
       { q: "Are your products covered under warranty?", a: "Yes. All products come with a manufacturer's warranty." },
       { q: "What brands do you sell?", a: "We sell printers and accessories from various trusted manufacturers." },
       { q: "How can I choose the right printer?", a: "You can contact our support for personalized buying recommendations based on your usage and budget." },
-      { q: "What if an item is out of stock?", a: "You can join the Back in Stock alert on the product page, and we’ll notify you as soon as it becomes available." }
+      { q: "What if an item is out of stock?", a: "You can join the Back in Stock alert on the product page, and weâ€™ll notify you as soon as it becomes available." }
     ]
   },
 
@@ -50,7 +50,7 @@ export default function FAQ() {
 
   return (
     <div className="bg-[#eaeded] min-h-screen font-['Rubik'] text-[#0f1111] pb-20">
-      <SEO title="FAQ | Dashing Printers" />
+      <SEO title="FAQ | Intel Printing" />
 
       {/* --- BREADCRUMBS --- */}
       <div className="bg-white border-b border-gray-300 py-3 shadow-sm">
@@ -175,3 +175,4 @@ export default function FAQ() {
     </div>
   );
 }
+

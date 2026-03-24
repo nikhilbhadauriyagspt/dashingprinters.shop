@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+﻿import { motion } from "framer-motion";
 import { Link, useNavigate } from "react-router-dom";
 import { ArrowUpRight, ArrowRight, ShieldCheck, ChevronLeft, ChevronRight } from "lucide-react";
 import {
@@ -22,7 +22,7 @@ export default function TheVault({ products = [] }) {
       const imgs = typeof images === 'string' ? JSON.parse(images) : images;
       if (Array.isArray(imgs) && imgs.length > 0) return `/${imgs[0]}`;
     } catch (e) { }
-    return "https://via.placeholder.com/400x400?text=Dashing Printers";
+    return "https://via.placeholder.com/400x400?text=Intel Printing";
   };
 
   if (products.length === 0) return null;
@@ -117,3 +117,4 @@ export default function TheVault({ products = [] }) {
     </section>
   );
 }
+

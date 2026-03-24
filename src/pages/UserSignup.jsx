@@ -1,4 +1,4 @@
-import { useState } from 'react';
+﻿import { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { Mail, Lock, User, Eye, EyeOff, ArrowRight, Loader2, ShieldCheck, Sparkles } from 'lucide-react';
 import API_BASE_URL from '../config';
@@ -56,7 +56,7 @@ export default function UserSignup() {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-[#F8FAFC] font-['Rubik'] px-4 py-12 md:py-20">
-      <SEO title="Create Your Account | Dashing Printers" />
+      <SEO title="Create Your Account | Intel Printing" />
 
       <div className="w-full max-w-[500px] bg-white rounded-[2rem] border border-gray-100 shadow-[0_20px_60px_rgba(0,0,0,0.06)] overflow-hidden">
         {/* Top Decorative Gradient */}
@@ -69,7 +69,7 @@ export default function UserSignup() {
             </Link>
             <div className="flex items-center justify-center gap-2 text-[#f59e0b] mb-2">
                 <Sparkles size={16} fill="currentColor" />
-                <span className="text-[10px] font-bold uppercase tracking-[0.2em]">Join Dashing Printers</span>
+                <span className="text-[10px] font-bold uppercase tracking-[0.2em]">Join Intel Printing</span>
             </div>
             <h1 className="text-3xl font-bold text-[#1e1b4b] tracking-tight">Create Account</h1>
             <p className="text-gray-500 mt-2 text-sm">Experience premium printing benefits</p>
@@ -120,7 +120,7 @@ export default function UserSignup() {
                         <input
                             required
                             type={showPassword ? "text" : "password"}
-                            placeholder="••••••••"
+                            placeholder="â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢"
                             value={formData.password}
                             onChange={(e) => setFormData({ ...formData, password: e.target.value })}
                             className="w-full h-12 pl-12 pr-4 bg-gray-50 border border-gray-200 rounded-xl outline-none focus:border-[#4f46e5] focus:bg-white focus:ring-4 focus:ring-[#4f46e5]/5 transition-all text-sm font-medium"
@@ -135,7 +135,7 @@ export default function UserSignup() {
                         <input
                             required
                             type={showPassword ? "text" : "password"}
-                            placeholder="••••••••"
+                            placeholder="â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢"
                             value={formData.confirmPassword}
                             onChange={(e) => setFormData({ ...formData, confirmPassword: e.target.value })}
                             className="w-full h-12 pl-12 pr-4 bg-gray-50 border border-gray-200 rounded-xl outline-none focus:border-[#4f46e5] focus:bg-white focus:ring-4 focus:ring-[#4f46e5]/5 transition-all text-sm font-medium"
@@ -178,3 +178,4 @@ export default function UserSignup() {
     </div>
   );
 }
+

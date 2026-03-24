@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+﻿import { motion } from "framer-motion";
 import { Plus, Heart, Check, ArrowRight, Sparkles } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useCart } from "../context/CartContext";
@@ -23,7 +23,7 @@ export default function ProductGrid({ products = [] }) {
         return `/${imgs[0]}`;
       }
     } catch (e) { }
-    return "https://via.placeholder.com/400x400?text=Dashing Printers";
+    return "https://via.placeholder.com/400x400?text=Intel Printing";
   };
 
   return (
@@ -116,3 +116,4 @@ export default function ProductGrid({ products = [] }) {
     </section>
   );
 }
+

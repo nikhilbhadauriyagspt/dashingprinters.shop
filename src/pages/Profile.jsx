@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+﻿import React, { useState, useEffect } from 'react';
 import { useCart } from '../context/CartContext';
 import { useNavigate, Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -125,7 +125,7 @@ export default function Profile() {
 
   return (
     <div className="bg-[#F8FAFC] min-h-screen font-['Rubik'] text-[#1e1b4b] pb-20">
-      <SEO title="Your Account | Dashing Printers" />
+      <SEO title="Your Account | Intel Printing" />
 
       {/* --- PAGE HEADER --- */}
       <div className="bg-white border-b border-gray-200 py-8 md:py-12 mb-12 shadow-sm">
@@ -361,7 +361,7 @@ export default function Profile() {
                       <div className="relative group">
                         <input
                           type={showPass ? "text" : "password"} required
-                          placeholder="••••••••"
+                          placeholder="â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢"
                           value={securityForm.password} onChange={(e) => setSecurityForm({ ...securityForm, password: e.target.value })}
                           className="w-full h-12 pl-4 pr-12 bg-gray-50 border border-gray-200 rounded-xl focus:bg-white focus:border-[#4f46e5] outline-none text-sm font-medium transition-all"
                         />
@@ -374,7 +374,7 @@ export default function Profile() {
                       <label className="text-[13px] font-bold text-gray-500 ml-1">Confirm New Password</label>
                       <input
                         type={showPass ? "text" : "password"} required
-                        placeholder="••••••••"
+                        placeholder="â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢"
                         value={securityForm.confirmPassword} onChange={(e) => setSecurityForm({ ...securityForm, confirmPassword: e.target.value })}
                         className="w-full h-12 px-4 bg-gray-50 border border-gray-200 rounded-xl focus:bg-white focus:border-[#4f46e5] outline-none text-sm font-medium transition-all"
                       />
@@ -396,3 +396,4 @@ export default function Profile() {
     </div>
   );
 }
+

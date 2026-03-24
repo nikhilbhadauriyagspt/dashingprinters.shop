@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+﻿import { motion } from "framer-motion";
 import { Plus, ArrowRight, Check, Zap } from "lucide-react";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Autoplay, FreeMode } from 'swiper/modules';
@@ -16,7 +16,7 @@ export default function QuickPicks({ products = [] }) {
       const imgs = typeof images === 'string' ? JSON.parse(images) : images;
       if (Array.isArray(imgs) && imgs.length > 0) return `/${imgs[0]}`;
     } catch (e) { }
-    return "https://via.placeholder.com/400x400?text=Dashing Printers";
+    return "https://via.placeholder.com/400x400?text=Intel Printing";
   };
 
   return (
@@ -96,3 +96,4 @@ export default function QuickPicks({ products = [] }) {
     </section>
   );
 }
+

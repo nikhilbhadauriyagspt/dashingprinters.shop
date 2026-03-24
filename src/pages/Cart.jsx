@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { useCart } from '../context/CartContext';
 import { Link } from 'react-router-dom';
 import { Trash2, Plus, Minus, ArrowRight, ShoppingCart, ChevronLeft, ChevronRight, Package } from 'lucide-react';
@@ -25,7 +25,7 @@ export default function Cart() {
 
   return (
     <div className="min-h-screen bg-white font-['Rubik'] text-foreground pb-20">
-      <SEO title="Shopping Cart | Dashing Printers" />
+      <SEO title="Shopping Cart | Intel Printing" />
 
       <div className="max-w-7xl mx-auto px-6 py-12">
         <h1 className="text-3xl font-bold mb-12">Shopping Cart</h1>
@@ -93,4 +93,5 @@ export default function Cart() {
     </div>
   );
 }
+
 

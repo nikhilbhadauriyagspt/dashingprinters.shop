@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+﻿import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import SEO from '@/components/SEO';
@@ -63,7 +63,7 @@ export default function Contact() {
 
   return (
     <div className="min-h-screen bg-[#eaeded] font-['Rubik'] text-[#0f1111]">
-      <SEO title="Contact Us | Dashing Printers" />
+      <SEO title="Contact Us | Intel Printing" />
 
       {/* --- BREADCRUMBS --- */}
       <div className="bg-white border-b border-gray-300 py-3 shadow-sm">
@@ -106,7 +106,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <h4 className="font-bold text-[13px] text-[#0f1111] mb-1 uppercase tracking-wider">Email Support</h4>
-                      <p className="text-[#007185] text-sm font-bold hover:underline cursor-pointer">info@dashingprinters.shop</p>
+                      <p className="text-[#007185] text-sm font-bold hover:underline cursor-pointer">info@intelprinting.shop</p>
                     </div>
                   </div>
 
@@ -274,3 +274,4 @@ export default function Contact() {
     </div>
   );
 }
+

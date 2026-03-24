@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+﻿import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import {
   ChevronUp,
@@ -88,7 +88,7 @@ export default function Footer() {
               <img src="/logo/logo.png" alt="Logo" className="h-10 brightness-0 invert" />
             </Link>
             <p className="text-gray-400 text-sm max-w-md text-center lg:text-left">
-              Dashing Printers is your one-stop shop for all your printing needs. We provide high-quality printers, accessories, and expert support.
+              Intel Printing is your one-stop shop for all your printing needs. We provide high-quality printers, accessories, and expert support.
             </p>
           </div>
 
@@ -99,7 +99,7 @@ export default function Footer() {
               </div>
               <div>
                 <p className="text-[10px] text-gray-500 uppercase tracking-wider">Email Us</p>
-                <p className="text-sm font-medium">info@dashingprinters.shop</p>
+                <p className="text-sm font-medium">info@intelprinting.shop</p>
               </div>
             </div>
             <div className="flex items-center gap-3">
@@ -117,7 +117,7 @@ export default function Footer() {
         {/* Bottom Strip */}
         <div className="pt-8 flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="text-[12px] text-gray-400 space-y-2 text-center md:text-left">
-            <p>© 2026, Dashing Printers Inc. or its affiliates</p>
+            <p>Â© 2026, Intel Printing Inc. or its affiliates</p>
             <p className="text-[13px] font-medium opacity-80 leading-relaxed">
               Disclaimer: All product names, logos, and brands are property of their respective owners. All company, product and service names used in this website are for identification purposes only. Use of these names, logos, and brands does not imply endorsement.
             </p>
@@ -126,7 +126,7 @@ export default function Footer() {
           <div className="flex flex-wrap justify-center gap-6 items-center grayscale opacity-70">
             <img src="/logo/PayPal.svg.webp" alt="PayPal" className="h-4 invert" />
             <div className="flex items-center gap-2 border border-gray-700 px-3 py-1 rounded text-[10px] font-bold uppercase tracking-widest text-gray-400">
-              <span className="text-primary">●</span> SSL SECURE
+              <span className="text-primary">â—</span> SSL SECURE
             </div>
           </div>
         </div>
@@ -134,3 +134,4 @@ export default function Footer() {
     </footer>
   );
 }
+

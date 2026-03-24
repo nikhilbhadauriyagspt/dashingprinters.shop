@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo } from 'react';
+﻿import { useState, useEffect, useMemo } from 'react';
 import { useSearchParams, Link, useParams, useNavigate } from 'react-router-dom';
 import SEO from '@/components/SEO';
 import { useCart } from '../context/CartContext';
@@ -191,7 +191,7 @@ export default function Shop() {
 
   return (
     <div className="min-h-screen bg-[#F8F9FA] font-['Rubik'] text-foreground">
-      <SEO title="Shop | Dashing Printers" />
+      <SEO title="Shop | Intel Printing" />
 
       {/* --- Breadcrumbs --- */}
       <div className="bg-white border-b border-gray-200">
@@ -406,3 +406,4 @@ export default function Shop() {
     </div>
   );
 }
+

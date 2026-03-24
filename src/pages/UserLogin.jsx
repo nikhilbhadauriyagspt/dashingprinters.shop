@@ -1,4 +1,4 @@
-import { useState } from 'react';
+﻿import { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { Mail, Lock, Eye, EyeOff, Loader2, ArrowRight, ShieldCheck } from 'lucide-react';
 import API_BASE_URL from '../config';
@@ -41,7 +41,7 @@ export default function UserLogin() {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-[#F8FAFC] font-['Rubik'] px-4 py-12">
-      <SEO title="Sign In | Dashing Printers" />
+      <SEO title="Sign In | Intel Printing" />
 
       <div className="w-full max-w-[450px] bg-white rounded-3xl border border-gray-100 shadow-[0_20px_50px_rgba(0,0,0,0.05)] overflow-hidden">
         {/* Top Accent Bar */}
@@ -89,7 +89,7 @@ export default function UserLogin() {
                         <input
                             required
                             type={showPassword ? "text" : "password"}
-                            placeholder="••••••••"
+                            placeholder="â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢"
                             value={password}
                             onChange={(e) => setPassword(e.target.value)}
                             className="w-full h-12 pl-12 pr-12 bg-gray-50 border border-gray-200 rounded-xl outline-none focus:border-[#4f46e5] focus:bg-white focus:ring-4 focus:ring-[#4f46e5]/5 transition-all text-sm font-medium"
@@ -133,3 +133,4 @@ export default function UserLogin() {
     </div>
   );
 }
+

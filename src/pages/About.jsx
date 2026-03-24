@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import SEO from '@/components/SEO';
 import {
   ShieldCheck,
@@ -89,7 +89,7 @@ export default function About() {
                 Built on Precision and Reliability
               </h2>
               <p className="text-[#565959] leading-relaxed text-base">
-                Established in 2026, Dashing Printers was founded to simplify the acquisition of high-performance printing infrastructure. We believe that technology should be accessible, reliable, and straightforward. Our commitment extends beyond merely selling products; we focus on empowering professionals and businesses to achieve their operational goals without the friction of unreliable technology.
+                Established in 2026, Intel Printing was founded to simplify the acquisition of high-performance printing infrastructure. We believe that technology should be accessible, reliable, and straightforward. Our commitment extends beyond merely selling products; we focus on empowering professionals and businesses to achieve their operational goals without the friction of unreliable technology.
               </p>
               <div className="pt-4">
                 <Link
@@ -106,7 +106,7 @@ export default function About() {
               <p className="text-lg text-[#0f1111] leading-relaxed italic mb-4">
                 Our goal is to provide a destination where professionals can find top-tier printers without complexity.
               </p>
-              <span className="text-[13px] font-bold text-[#565959] uppercase">Dashing Printers Team</span>
+              <span className="text-[13px] font-bold text-[#565959] uppercase">Intel Printing Team</span>
             </div>
           </div>
         </div>
@@ -174,7 +174,7 @@ export default function About() {
         {/* --- ADVANTAGE SECTION --- */}
         <div className="bg-white p-6 md:p-10 border border-gray-300 rounded-md shadow-sm mb-12">
           <div className="mb-6 border-b border-gray-200 pb-4">
-            <h2 className="text-2xl font-bold text-[#0f1111]">The Dashing Printers Advantage</h2>
+            <h2 className="text-2xl font-bold text-[#0f1111]">The Intel Printing Advantage</h2>
             <p className="text-[#565959] text-sm mt-1">Why professionals choose us</p>
           </div>
 
@@ -196,3 +196,4 @@ export default function About() {
     </div>
   );
 }
+

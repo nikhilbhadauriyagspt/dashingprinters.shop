@@ -1,4 +1,4 @@
-import Hero from "@/components/Hero";
+﻿import Hero from "@/components/Hero";
 import FlashSalesSlider from "@/components/FlashSalesSlider";
 import SEO from "@/components/SEO";
 import SpotlightSection from "@/components/SpotlightSection";
@@ -102,7 +102,7 @@ export default function Home() {
   return (
     <div className="bg-white font-sans overflow-x-hidden text-slate-900">
       <SEO
-        title="Dashing Printers | High-Performance Printing Solutions"
+        title="Intel Printing | High-Performance Printing Solutions"
         description="Shop printers, ink, and toner globally. Professional business printing solutions with international shipping."
         keywords="Buy Printers Online, Ink and Toner, LaserJet, OfficeJet, Printer Accessories, Business Printing Solutions"
       />
@@ -160,3 +160,4 @@ export default function Home() {
     </div>
   );
 }
+

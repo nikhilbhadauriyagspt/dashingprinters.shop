@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+﻿import React, { useState, useEffect } from 'react';
 import { useCart } from '../context/CartContext';
 import { Link, useNavigate } from 'react-router-dom';
 import {
@@ -93,7 +93,7 @@ export default function Checkout() {
         total: total,
         items: cart,
         payment_details: paymentDetails,
-        source: 'dashingprinters.shop',
+        source: 'intelprinting.shop',
       };
 
       const response = await fetch(`${API_BASE_URL}/orders`, {
@@ -170,7 +170,7 @@ export default function Checkout() {
 
   return (
     <div className="min-h-screen bg-[#eaeded] font-['Rubik'] text-[#0f1111] pb-20">
-      <SEO title="Secure Checkout | Dashing Printers" />
+      <SEO title="Secure Checkout | Intel Printing" />
 
       {/* --- SIMPLE LOGO HEADER --- */}
       <div className="bg-white border-b border-gray-300 py-4 shadow-sm mb-8">
@@ -396,3 +396,4 @@ export default function Checkout() {
     </div>
   );
 }
+
